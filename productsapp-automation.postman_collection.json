@@ -125,13 +125,13 @@
 							"    pm.expect(1).to.equal(jsonData.Id)\r",
 							"})\r",
 							"pm.test(\"value of Name to be Tomato Soup\", function(){\r",
-							"    pm.expect(\"Tomato Soup\").to.equal(jsonData.Name)\r",
+							"    pm.expect(\"Potato Soup\").to.equal(jsonData.Name)\r",
 							"})\r",
 							"pm.test(\"value of Category to be Groceries\", function(){\r",
-							"    pm.expect(\"Groceries\").to.equal(jsonData.Category)\r",
+							"    pm.expect(\"shmGroceries\").to.equal(jsonData.Category)\r",
 							"})\r",
-							"pm.test(\"value of Price to be 1.0\", function(){\r",
-							"    pm.expect(1.0).to.equal(jsonData.Price)\r",
+							"pm.test(\"value of Price to be 12.0\", function(){\r",
+							"    pm.expect(12.0).to.equal(jsonData.Price)\r",
 							"})"
 						],
 						"type": "text/javascript"
